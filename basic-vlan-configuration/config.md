@@ -4,8 +4,6 @@ All PCs are in the same LAN network: **10.1.1.0/24**
 - Subnet Mask: 255.255.255.0
 - Default gateway: Not configured
 
----
-
 ## PC Configuration
 ### PC1
 - IP Address: 10.1.1.1
@@ -22,8 +20,6 @@ All PCs are in the same LAN network: **10.1.1.0/24**
 ### PC4
 - IP Address: 10.1.1.4
 - Subnet Mask: 255.255.255.0
-
----
 
 ## Switch Configuration
 ### VLAN Creation
@@ -54,5 +50,4 @@ interface FastEthernet0/3
 interface FastEthernet0/4
  switchport mode access
  switchport access vlan 20
-
 ```
